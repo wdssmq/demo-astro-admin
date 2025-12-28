@@ -10,5 +10,8 @@
   },
   "dependencies": {
     "astro": "^5.16.6"
+  },
+  "devDependencies": {
+    "less": "^4.5.1"
   }
 }
