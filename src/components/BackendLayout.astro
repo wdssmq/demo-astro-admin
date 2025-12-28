@@ -1,5 +1,9 @@
 ---
-export let title = "后台管理";
+interface Props {
+    title: string;
+}
+
+const { title } = Astro.props;
 import "../styles/style.less";
 import Sidebar from "./Sidebar.astro";
 import Header from "./Header.astro";
